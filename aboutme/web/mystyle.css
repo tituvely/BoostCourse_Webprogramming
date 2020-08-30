@@ -1,0 +1,76 @@
+nav {
+    border-bottom: 3px solid gray;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin-left: 50%;
+    margin-right: 10%;
+}
+
+.nav ul li {
+    color: white;
+    background-color: cadetblue;
+    border-color: darkcyan;
+    box-shadow: 10px;
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.mid ul {
+    list-style-type: none;
+    margin: 0% 20%;
+}
+
+.mid ul li {
+    color: white;
+    font-size: 25px;
+    background-color: cadetblue;
+    border-color: darkcyan;
+    border-width: 3px;
+    box-shadow: 10px;
+    display: inline-block;
+    height: 80px;
+    width: 49%;
+    text-align: center;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.aboutme-p {
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+.photo-div {
+    overflow: auto;
+    margin-bottom: 30px;
+    background-color: indigo;
+}
+
+.photo {
+    float: left;
+    width: 30%;
+    border-color: gray;
+    border-width: 3px;
+    margin-left: 5%;
+}
+
+.photo-p{
+    width: 60%;
+    margin-left: 40%;
+    background-color: goldenrod
+}
