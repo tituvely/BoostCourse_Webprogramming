@@ -1,0 +1,86 @@
+li {
+    list-style: none;
+    vertical-align: middle;
+    cursor: pointer;
+    color: rosybrown;
+}
+
+a {
+   text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#wrap {
+    overflow: auto;
+    margin-left: 5%;
+}
+
+.menu {
+    float: right;
+    background-color: antiquewhite;
+}
+
+.menu ul {
+    padding: 0px 10px;
+}
+
+.menu ul li{
+    background-color: aquamarine;
+    box-shadow: 3px 3px 3px grey;
+    text-align: center;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid gray;
+}
+
+.line {
+    height: 10px;
+    margin: 0 0 0 0;
+    background-color: slategray;
+}
+
+.line_two {
+    height: 5px;
+    margin: 0 30px 0 30px;
+    background-color: slategray;
+}
+
+.index {
+    text-align: center;
+}
+
+.button li {
+    width: 15%;
+    height: 100px;
+    line-height: 100px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    display: inline-block;
+    box-shadow: 3px 3px 3px grey;
+}
+
+#aboutme {
+    margin-left: 10%;
+}
+
+.photo {
+    margin-left: 10%;
+    width: 30%;
+}
+
+.photo_detail {
+    float: right;
+    margin-right: 10%;
+    width: 40%;
+}
+
+.photo_div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
