@@ -1,0 +1,59 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "header header header"
+        "todo   doing   done"
+        "todoList doingList doneList"
+        "footer footer footer";
+    margin: 2% 4%;
+}
+
+.header{
+    grid-area: header;
+    height: 60px;
+}
+
+.newTodo {
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+    color: white;
+    height: 40px;
+    width: 200px;
+    margin-left: 80%;
+    text-align: center;
+}
+
+.todo { grid-area: todo; }
+.doing { grid-area: doing; }
+.done { grid-area: done; }
+.todoList { grid-area: todoList; }
+.doingList { grid-area: doingList; }
+.doneList { grid-area: doneList; }
+.footer { grid-area: footer; }
+
+.todo, .doing, .done {
+    background-color: darkslategray;
+    color: white;
+    font-size: 30px;
+    height: 60px;
+    margin: 0 1%;
+    line-height: 60px;
+    padding: 0 5%;
+}
+
+.todoList, .doingList, .doneList {
+    margin: 0 1%;
+}
+
+.list {
+    background-color: #b1edf5;
+    margin: 2% 0;
+    padding: 5%;
+    height: 80px;
+}
+
+.footer {
+    background-color: darkgray;
+    height: 50px;
+}
