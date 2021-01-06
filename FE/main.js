@@ -1,9 +1,19 @@
 var log = document.querySelector(".log");
-var lists = document.querySelectorAll("ul > li");
+var ul = document.querySelector("ul");
+var img = document.querySelector("img");
 
-for(var i=0,len=lists.length; i < len; i++) {
-    lists[i].addEventListener("click", function (evt) {
-        log.innerHTML = "IMG URL IS " + evt.currentTarget.firstElementChild.src;
-        console.log(evt.currentTarget);
-    });
-}
+img.addEventListener("click", function () {
+    console.log("img tag clicked!");
+})
+
+ul.addEventListener("click", function(evt) {
+    // IMG, UL
+    console.log(evt.target.tagName, evt.currentTarget.tagName);
+
+    if(evt.target.tagName === "IMG") {
+        log.innerHTML = "IMG URL은, " + evt.target.src;
+    } else if (evt.target.tagName === "LI") {
+        log.innerHTML = "IMG URL은, " + evt.target.firstElementChild.src;
+    }
+    //이미지 태그에 발생해야 될 이벤트를 위쪽 부모에 위임 => 이벤트 델리게이션
+})
