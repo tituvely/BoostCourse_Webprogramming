@@ -1,7 +1,26 @@
 <html>
-    <header></header>
+    <header>
+        <meta charset="utf-8">
+        <style>
+            .outside {
+                position: relative;
+                background-color: darkolivegreen;
+                width: 100px;
+                height: 300px;
+                font-size:0.8em;
+                color: white;
+                top: 100px;
+                left: 50px;
+                transform: scale(1);
+                /*transition: all 2s;*/
+                /*transition: transform 2s;*/
+                transition: left 0.5s ease-in-out;
+            }
+        </style>
+    </header>
     <body>
-        <div class="outside">outside element</div>
+        <div class="outside" style="left:100px">제가 좋아하는 과일은요</div>
+        <button>right!</button>
     </body>
     <script src="test.js"></script>
 </html>
